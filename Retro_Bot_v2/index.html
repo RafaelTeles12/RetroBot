@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Retro Bot</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+  <div class="box-question">
+    <div class="header">
+      <h1><i class="fa-sharp fa-solid fa-robot"></i> Retro Bot_</h1>
+    </div>
+
+    <div class="assessment-head">
+    <input type="text" id="assessment-input" maxlength="50" placeholder="Digite aqui a sua avalição_">
+    <button id="btn-assessment" onclick="sendAssessment()">Avaliar</button>
+    </div>
+    
+    <br>
+    
+    <p id="status"></p>
+
+    <div id="history">
+    </div>
+
+    <div class="footer">
+      <input type="text" id="message-input" placeholder="Digite aqui a sua pergunta_">
+      <button id="voice-button" title="Clique para iniciar o reconhecimento de voz."><i class="fa-solid fa-microphone"></i></button>
+      <button id="upload-image-button" title="Clique para escolher uma imagem. Atenção, a imagem deve estar em formato JPEG.">
+      <i class="fa-solid fa-image"></i><span></span></button>
+      <button id="btn-submit" onclick="sendMessage()">Enviar</button>
+    </div>
+
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
