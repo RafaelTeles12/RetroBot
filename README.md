@@ -1,2 +1,2 @@
 # RetroBot
-Assistente virtual em HTML, CSS e JavaScript com integração da API ChatGPT 3.5 da OpenAI.
+Assistente virtual em HTML, CSS e JavaScript com integração das APIs ChatGPT 3.5, Cloud Vision e um API Flask, desenvolvida em Python.
